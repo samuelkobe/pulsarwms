@@ -1,0 +1,58 @@
+{
+    "key": "group_608cd55d1d548",
+    "title": "TEMPLATE: BUTTON",
+    "fields": [
+        {
+            "key": "field_608c8a78389f8",
+            "label": "Button Text",
+            "name": "button_text",
+            "type": "text",
+            "instructions": "Add text for a button (Max 24 characters). i.e \"Learn More\".",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Learn More",
+            "prepend": "",
+            "append": "",
+            "maxlength": 24
+        },
+        {
+            "key": "field_608c8b3d1befc",
+            "label": "Button Link",
+            "name": "button_link",
+            "type": "link",
+            "instructions": "Add a link to the button.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": ""
+            }
+        ]
+    ],
+    "menu_order": 99,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1628702649
+}

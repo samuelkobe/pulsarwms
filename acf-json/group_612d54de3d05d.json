@@ -1,0 +1,135 @@
+{
+    "key": "group_612d54de3d05d",
+    "title": "Form Page Template",
+    "fields": [
+        {
+            "key": "field_612d6f6adf74b",
+            "label": "Form title",
+            "name": "form_title",
+            "type": "text",
+            "instructions": "Short descriptive title for the form. i.e. 'Support Ticket', 'Drop us a line', etc. (Max 32 Characters).",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_612d54e9c7239",
+            "label": "Form embed",
+            "name": "form_embed",
+            "type": "wysiwyg",
+            "instructions": "Add Hubsport Form embed here.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "text",
+            "media_upload": 0,
+            "toolbar": "full",
+            "delay": 0
+        },
+        {
+            "key": "field_612d5513d7ef1",
+            "label": "Contact email",
+            "name": "contact_email",
+            "type": "email",
+            "instructions": "Add the team specific email: i.e. support@... or sales@... etc.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_612d5579d7ef3",
+            "label": "Contact phone",
+            "name": "contact_phone",
+            "type": "number",
+            "instructions": "10 numeric characters only. i.e. '5559871234' this is what the system will use to call.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "min": "",
+            "max": "",
+            "step": ""
+        },
+        {
+            "key": "field_613e82f324d31",
+            "label": "Contact phone text",
+            "name": "contact_phone_text",
+            "type": "text",
+            "instructions": "Multiple characters allow. i.e. '555-987-1234'. This is what the system will use to display the number.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "template-form.php"
+            }
+        ]
+    ],
+    "menu_order": 10,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "permalink",
+        "the_content",
+        "excerpt",
+        "discussion",
+        "comments",
+        "revisions",
+        "slug",
+        "author",
+        "format",
+        "page_attributes",
+        "featured_image",
+        "categories",
+        "tags",
+        "send-trackbacks"
+    ],
+    "active": true,
+    "description": "",
+    "modified": 1631486918
+}

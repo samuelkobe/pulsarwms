@@ -1,0 +1,167 @@
+{
+    "key": "group_60906d333a78f",
+    "title": "TEMPLATE: 5050",
+    "fields": [
+        {
+            "key": "field_60906e8b23ccd",
+            "label": "5050",
+            "name": "content_5050",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_60906d4623cc9",
+                    "label": "Subtitle",
+                    "name": "subtitle",
+                    "type": "text",
+                    "instructions": "One or two-word subtitle (Max 32 characters).",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": 32
+                },
+                {
+                    "key": "field_60906dce23ccb",
+                    "label": "Title",
+                    "name": "title",
+                    "type": "text",
+                    "instructions": "Short title, one sentence (Max 128 characters).",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": 128
+                },
+                {
+                    "key": "field_60906d8423cca",
+                    "label": "Content",
+                    "name": "content",
+                    "type": "textarea",
+                    "instructions": "One or two paragraph text component (Max character 256).",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "maxlength": 256,
+                    "rows": 4,
+                    "new_lines": ""
+                },
+                {
+                    "key": "field_60906eb123cce",
+                    "label": "Button",
+                    "name": "button",
+                    "type": "clone",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "clone": [
+                        "group_608cd55d1d548"
+                    ],
+                    "display": "seamless",
+                    "layout": "block",
+                    "prefix_label": 0,
+                    "prefix_name": 0
+                },
+                {
+                    "key": "field_60906edc23ccf",
+                    "label": "Background Icon",
+                    "name": "background_icon",
+                    "type": "image",
+                    "instructions": "Must be a .png and have a transparent background. It is recommended that this is line art.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "url",
+                    "preview_size": "thumbnail",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ".png"
+                }
+            ]
+        },
+        {
+            "key": "field_60906def23ccc",
+            "label": "Image",
+            "name": "image",
+            "type": "image",
+            "instructions": "Add a relatively good sized image. Something like 800x400 or 1200x600. Ensure the focal point of the image is centered.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": 2048,
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": ""
+            }
+        ]
+    ],
+    "menu_order": 99,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1627094328
+}

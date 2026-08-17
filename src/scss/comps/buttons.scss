@@ -1,0 +1,61 @@
+.button {
+    @apply py-2 xl:py-3 px-4 xl:px-8 border-0 border-none rounded uppercase text-white text-sm lg:text-base relative flex z-0 overflow-hidden;
+        &:hover, &:active {
+            &::before {
+                @apply opacity-0 transition-all duration-500;
+            }
+            &::after {
+                @apply w-full h-full ease-out opacity-100 duration-300;
+            }
+        } 
+        &::before {      
+            content: "";
+            @apply -z-1 top-0 left-0 absolute w-full h-full transition-all ease-out duration-300 opacity-100 bg-gradient-to-b from-brand-medium to-brand-transitionMedium rounded;
+        }
+        &::after {
+            content: "";            
+            @apply -z-1 top-0 left-0 absolute w-full h-0 bg-brand-medium transition-all ease-in duration-300 bg-none rounded opacity-0;
+        }
+    &.bordered {
+        @apply bg-transparent border-solid border-3 bg-none border-white transition-colors duration-500;
+        &:hover, &:active {
+            @apply border-brand-medium bg-brand-medium;
+            &::after {
+                @apply w-full h-full opacity-100;
+            }
+        }
+        &::before {
+            @apply hidden;
+        }
+        &::after {          
+            @apply -z-1 bottom-0 left-0 absolute w-0 h-full bg-brand-medium transition-width ease-out duration-300 bg-none rounded-none opacity-100;
+        }
+    }
+    &.solid {
+        @apply bg-brand-dark bg-none;
+        &.alt {
+            @apply bg-brand-medium transition-colors;
+            &:hover {
+                @apply bg-brand-dark duration-300 delay-200;
+            }
+            &::after {         
+                @apply bg-brand-dark;
+            }
+        }
+        &::before {      
+            @apply hidden;
+        }
+    }
+    &.disabled {
+        @apply bg-grey-medium bg-none cursor-not-allowed;
+        &:hover, &:active {
+            @apply bg-grey-medium bg-none;
+        }
+        &::after {         
+            @apply hidden;
+        }
+    }
+    &.full {
+        @apply w-full flex items-center justify-center;
+    }
+}
